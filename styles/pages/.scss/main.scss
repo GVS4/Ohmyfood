@@ -7,9 +7,6 @@
 
 /********** Variables **********/
 
-$main-color : #9356DC;
-$secondary-color : #FF79DA;
-$tertiary-color : #99E2D0;
 
 
 /********** Code **********/
@@ -21,4 +18,8 @@ body {
 
 p {
     font-family: 'Shrikhand', serif;
+}
+
+a {
+    background: #000;
 }
