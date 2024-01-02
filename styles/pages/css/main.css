@@ -1,0 +1,12 @@
+/********** Mixin **********/
+/* reset-css */
+/********** Variables **********/
+/********** Code **********/
+body {
+  font-family: "Roboto", sans-serif;
+  font-family: "Shrikhand", serif;
+}
+
+p {
+  font-family: "Shrikhand", serif;
+}

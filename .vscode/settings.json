@@ -1,13 +1,14 @@
-{   "liveSassCompile.settings.useNewCompiler": true,
-    "liveSassCompile.settings.formats": [
-      {
-        "format": "expanded",
-        "extensionName": ".css",
-        "savePath": "/styles/pages/.css"
-      }
-    ],
-    "liveSassCompile.settings.autoprefix": [],
+{
+    "liveSassCompile.settings.generateMap": false,
     "liveSassCompile.settings.includeItems": [
-      "/styles/pages/.scss/*.scss"
+        "styles/pages/scss/main.scss"
+    ],
+    "liveSassCompile.settings.formats": [
+        {
+            "format": "expanded",
+            "extensionName": ".css",
+            "savePath": "styles/pages/css",
+            "savePathReplacementPairs": null
+        }
     ]
-  }
+}

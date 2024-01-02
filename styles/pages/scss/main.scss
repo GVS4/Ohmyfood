@@ -1,12 +1,9 @@
-@import "../mixins/reset-css";
 
 /********** Mixin **********/
 
 /* reset-css */
-@include reset-css;
 
 /********** Variables **********/
-
 
 
 /********** Code **********/
@@ -18,8 +15,4 @@ body {
 
 p {
     font-family: 'Shrikhand', serif;
-}
-
-a {
-    background: #000;
 }
