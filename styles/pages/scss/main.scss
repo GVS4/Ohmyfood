@@ -1,7 +1,13 @@
 
 /********** Mixin **********/
 @import "/styles/abstracts/mixins/reset-css.scss";
+@include reset-css;
+
+/********** Components **********/
+@import "/styles/components/logo.scss";
+
 /********** Variables **********/
+@import "/styles/abstracts/variables.scss";
 
 /********** pages **********/
 @import "./index.scss";
@@ -13,5 +19,6 @@
 /********** Code **********/
 
 body {
-    background-color: grey;
+    background-color: #7777006e;
+    font-family: $main-text;
 }

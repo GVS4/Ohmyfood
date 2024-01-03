@@ -1,8 +1,7 @@
-{
+{   "liveSassCompile.settings.useNewCompiler": false,
     "liveSassCompile.settings.generateMap": false,
     "liveSassCompile.settings.includeItems": [
         "styles/pages/scss/main.scss",
-        "styles/pages/scss/index.scss",
     ],
     "liveSassCompile.settings.formats": [
         {
@@ -12,4 +11,5 @@
             "savePathReplacementPairs": null
         }
     ]
+    
 }
