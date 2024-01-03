@@ -1,18 +1,14 @@
 
 /********** Mixin **********/
-
-/* reset-css */
-
+@import "/styles/abstracts/mixins/reset-css.scss";
 /********** Variables **********/
 
+/********** pages **********/
+@import "./index.scss";
+// @import "/styles/pages/scss/a-la-francaise.scss";
+// @import "/styles/pages/scss/la-note-enchantee.scss";
+// @import "/styles/pages/scss/la-palette-du-gout.scss";
+// @import "/styles/pages/scss/le-delice-des-sens.scss";
 
 /********** Code **********/
 
-body {
-    font-family: 'Roboto', sans-serif;
-    font-family: 'Shrikhand', serif;
-}
-
-p {
-    font-family: 'Shrikhand', serif;
-}

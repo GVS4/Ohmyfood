@@ -1,12 +1,12 @@
 /********** Mixin **********/
-/* reset-css */
-/********** Variables **********/
-/********** Code **********/
 body {
-  font-family: "Roboto", sans-serif;
-  font-family: "Shrikhand", serif;
+  background: blue;
 }
 
-p {
-  font-family: "Shrikhand", serif;
+/********** Variables **********/
+/********** pages **********/
+header {
+  border: 3px solid blue;
 }
+
+/********** Code **********/
