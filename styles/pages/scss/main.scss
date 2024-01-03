@@ -5,10 +5,13 @@
 
 /********** pages **********/
 @import "./index.scss";
-// @import "/styles/pages/scss/a-la-francaise.scss";
-// @import "/styles/pages/scss/la-note-enchantee.scss";
-// @import "/styles/pages/scss/la-palette-du-gout.scss";
-// @import "/styles/pages/scss/le-delice-des-sens.scss";
+@import "./a-la-francaise.scss";
+@import "./la-note-enchantee.scss";
+@import "./la-palette-du-gout.scss";
+@import "./le-delice-des-sens.scss";
 
 /********** Code **********/
 
+body {
+    background-color: grey;
+}

@@ -1,8 +1,4 @@
 /********** Mixin **********/
-body {
-  background: blue;
-}
-
 /********** Variables **********/
 /********** pages **********/
 header {
@@ -10,3 +6,6 @@ header {
 }
 
 /********** Code **********/
+body {
+  background-color: grey;
+}
