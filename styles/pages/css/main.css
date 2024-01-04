@@ -275,8 +275,26 @@ table {
   bottom: 55px;
 }
 
+.footer {
+  display: flex;
+  flex-direction: column;
+  background: #353535;
+  color: white;
+  padding: 22px 25px;
+  gap: 10px;
+  margin-top: 50px;
+}
+.footer__logo {
+  width: 100px;
+  padding-bottom: 10px;
+}
+.footer__container {
+  display: flex;
+  gap: 10px;
+}
+
 /********** Code **********/
 body {
-  background-color: rgba(119, 119, 0, 0.431372549);
+  background-color: #f6f6f6;
   font-family: "Roboto", sans-serif;
 }
