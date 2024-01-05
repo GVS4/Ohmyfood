@@ -157,42 +157,42 @@
   padding: 0 18px;
 
   &__new1 {
-      display: flex;
-      width: 80px;
-      height: 29px;
-      flex-shrink: 0;
-      border-radius: 2px;
-      background: var(--Green, #99E2D0);
-      box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.15);
-      align-items: center;
-      justify-content: center;
-      position: relative;
-      top: 122px;
-      left: 70%;
-    }
+    display: flex;
+    width: 80px;
+    height: 29px;
+    flex-shrink: 0;
+    border-radius: 2px;
+    background: var(--Green, #99e2d0);
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.15);
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 122px;
+    left: 70%;
+  }
 
-    &__title {
-      font-size: 24px;
-      font-style: normal;
-      font-weight: 700;
-      line-height: normal;
-      padding-top: 20px;
-    }
+  &__title {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-top: 20px;
+  }
 
-    &__new2 {
-      display: flex;
-      width: 80px;
-      height: 29px;
-      flex-shrink: 0;
-      border-radius: 2px;
-      background: var(--Green, #99E2D0);
-      box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.15);
-      align-items: center;
-      justify-content: center;
-      position: relative;
-      top: 315px;
-      left: 70%;
-    }
+  &__new2 {
+    display: flex;
+    width: 80px;
+    height: 29px;
+    flex-shrink: 0;
+    border-radius: 2px;
+    background: var(--Green, #99e2d0);
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.15);
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 315px;
+    left: 70%;
+  }
 
   &__card {
     display: flex;
@@ -203,38 +203,37 @@
     height: 250px;
     overflow: hidden;
 
-      &--img {
-        height: 70%;
-        width: 100%;
-        object-fit: cover;
-        top: 30px;
-      }
+    &--img {
+      height: 70%;
+      width: 100%;
+      object-fit: cover;
+      top: 30px;
+    }
 
-      &--title {
-        font-size: 17px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: normal;
-        padding-left: 16px;
-        padding-top: 15px;
-      }
+    &--title {
+      font-size: 17px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+      padding-left: 16px;
+      padding-top: 15px;
+    }
 
-      &--txt {
-        font-size: 16px;
-        font-weight: 300;
-        line-height: normal;
-        padding-left: 16px;
-        padding-top: 5px;
-      }
+    &--txt {
+      font-size: 16px;
+      font-weight: 300;
+      line-height: normal;
+      padding-left: 16px;
+      padding-top: 5px;
+    }
 
-      &--heart {
-        position: relative;
-        left: 85%;
-        bottom: 55px;
-      }
+    &--heart {
+      position: relative;
+      left: 85%;
+      bottom: 55px;
+    }
   }
 }
-
 
 // footer
 .footer {
@@ -245,7 +244,6 @@
   padding: 22px 25px;
   gap: 10px;
   margin-top: 50px;
-  
 
   &__logo {
     width: 100px;
