@@ -1,22 +1,22 @@
 /********** Mixin **********/
-@import "/styles/abstracts/mixins/reset-css.scss";
+@import "/styles/abstracts/mixins/reset-css";
 @include reset-css;
 
 /********** Components **********/
 
 /********** Variables **********/
-@import "/styles/abstracts/variables.scss";
+@import "/styles/abstracts/variables";
 
 /********** pages **********/
-@import "./index.scss";
-@import "./a-la-francaise.scss";
-@import "./la-note-enchantee.scss";
-@import "./la-palette-du-gout.scss";
-@import "./le-delice-des-sens.scss";
+@import "./index";
+@import "./a-la-francaise";
+@import "./la-note-enchantee";
+@import "./la-palette-du-gout";
+@import "./le-delice-des-sens";
 
 /********** Code **********/
 
 body {
-  background-color: #f6f6f6;
+  background-color: white;
   font-family: $main-text;
 }
