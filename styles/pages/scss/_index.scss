@@ -1,23 +1,6 @@
 // HEADER
-.header {
-  display: flex;
-  height: 63px;
-  align-items: center;
-  justify-content: space-between;
-
-  &__arrow {
-    display: none;
-    width: 30px;
-    height: 30px;
-    padding-left: 17px;
-  }
-
-  &__logo {
-    width: 180px;
-    height: 50px;
-    margin: 0 auto;
-    padding: 20px;
-  }
+.header__arrow {
+  display: none;
 }
 
 .location {
@@ -52,7 +35,7 @@
 .introduction {
   display: flex;
   flex-direction: column;
-  background: #f6f6f6;
+  background: $bg-main;
   height: auto;
   align-items: center;
   gap: 20px;
@@ -74,27 +57,7 @@
   }
 
   &__btn {
-    text-align: center;
-    font-size: 16px;
-    font-weight: 500;
-    color: white;
-    padding: 16px 20px;
-    border: none;
-    margin-top: 10px;
-    margin-bottom: 48px;
-    border-radius: 25px;
-    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25);
-    background-image: linear-gradient(193deg, #9356dc -11.44%, #ff79da 123.93%);
-    transition: background-image 0.2s, box-shadow 0.2s;
-
-    &:focus {
-      background-image: linear-gradient(
-        193deg,
-        #a681e3 -11.44%,
-        #ff96e6 123.93%
-      );
-      box-shadow: 0px 8px 15px 0px rgba(0, 0, 0, 0.3);
-    }
+    @include btn;
   }
 }
 
@@ -123,7 +86,7 @@
     &--slide {
       display: flex;
       border-radius: 20px;
-      background: #f6f6f6;
+      background: $bg-main;
       box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.15);
       padding-top: 27px;
       padding-bottom: 27px;
@@ -170,7 +133,7 @@
 .restaurant {
   display: flex;
   flex-direction: column;
-  background: #f6f6f6;
+  background: $bg-main;
   height: 100%;
   padding: 0 18px;
   gap: 20px;
@@ -189,29 +152,17 @@
     min-width: 260px;
 
     &--emptyheart {
-      position: absolute;
+      @include emptyheart;
       left: 86%;
       top: 78%;
-
-      &:focus {
-        border: 3px red solid;
-        opacity: 0;
-      }
     }
 
     &--fullheart {
-      position: absolute;
+      @include fullheart;
       left: 86%;
       top: 78%;
-      opacity: 0;
-      transition-property: opacity;
-      transition-duration: 0.5s;
-
-      &:focus {
-        opacity: 1;
-        outline: none;
-      }
     }
+
     &__space {
       display: flex;
       position: relative;
@@ -226,7 +177,7 @@
     background: white;
     height: 250px;
     overflow: hidden;
-    width: auto;
+    width: 100%;
     min-width: 260px;
     max-width: 500px;
 
@@ -271,38 +222,8 @@
   }
 }
 
-// footer
-.footer {
-  display: flex;
-  flex-direction: column;
-  background: #353535;
-  color: white;
-  padding: 22px 25px;
-  gap: 10px;
-  margin-top: 50px;
-
-  &__logo {
-    width: 100px;
-    padding-bottom: 10px;
-  }
-
-  &__container {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-
-    &--small {
-      display: flex;
-      gap: 10px;
-    }
-  }
-}
-
+////////// 540 //////////
 @media all and (min-width: 540px) {
-  .header {
-    height: 100px;
-  }
-
   .introduction {
     gap: 35px;
     &__titre {
@@ -318,10 +239,8 @@
     margin: 0 auto;
     align-items: center;
 
-    &__tuto {
-      &--slide {
-        width: 322px;
-      }
+    &__tuto--slide {
+      width: 322px;
     }
   }
 
@@ -338,9 +257,7 @@
 
     &__card {
       width: auto;
-      min-width: 260px;
       width: 490px;
-      max-width: 500px;
 
       &--new {
         left: 80%;
@@ -359,18 +276,11 @@
   }
 }
 
+////////// 1415 //////////
 @media all and (min-width: 1415px) {
-  .introduction {
-    &__btn {
-      &:hover {
-        background-image: linear-gradient(
-          193deg,
-          #a681e3 -11.44%,
-          #ff96e6 123.93%
-        );
-        box-shadow: 0px 8px 15px 0px rgba(0, 0, 0, 0.3);
-      }
-    }
+  .introduction__btn:hover {
+    background-image: linear-gradient(193deg, #a681e3 -11.44%, #ff96e6 123.93%);
+    box-shadow: 0px 8px 15px 0px rgba(0, 0, 0, 0.3);
   }
 
   .functioning {
@@ -395,29 +305,6 @@
     &__title {
       padding-left: 171px;
       padding-top: 30px;
-    }
-
-    &__space {
-    }
-  }
-
-  .footer {
-    margin: 0;
-    flex-direction: row-reverse;
-    padding-top: 60px;
-    padding-bottom: 20px;
-
-    &__logo {
-      padding-left: 100px;
-      padding-right: 50px;
-    }
-
-    &__container {
-      flex-direction: row;
-    }
-
-    &__mention {
-      padding-left: 40px;
     }
   }
 }

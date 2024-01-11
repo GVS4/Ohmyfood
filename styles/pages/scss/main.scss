@@ -1,11 +1,22 @@
 /********** Mixin **********/
-@import "/styles/abstracts/mixins/reset-css";
-@include reset-css;
 
-/********** Components **********/
 
 /********** Variables **********/
 @import "/styles/abstracts/variables";
+
+/********** base **********/
+@import "/styles/base/reset-css";
+@include reset-css;
+@import "/styles/base/typography";
+
+/********** Components **********/
+@import "/styles/components/buttons";
+
+/********** layout **********/
+@import "/styles/layout/header";
+@import "/styles/layout/footer";
+@import "/styles/layout/emptyheart";
+@import "/styles/layout/fullheart";
 
 /********** pages **********/
 @import "./index";

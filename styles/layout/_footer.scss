@@ -1,0 +1,47 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  background: #353535;
+  color: white;
+  padding: 22px 25px;
+  gap: 10px;
+  margin-top: 50px;
+
+  &__logo {
+    width: 100px;
+    padding-bottom: 10px;
+  }
+
+  &__container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    &--small {
+      display: flex;
+      gap: 10px;
+    }
+  }
+}
+
+@media all and (min-width: 1415px) {
+  .footer {
+    margin: 0;
+    flex-direction: row-reverse;
+    padding-top: 60px;
+    padding-bottom: 20px;
+
+    &__logo {
+      padding-left: 100px;
+      padding-right: 50px;
+    }
+
+    &__container {
+      flex-direction: row;
+    }
+
+    &__mention {
+      padding-left: 40px;
+    }
+  }
+}

@@ -1,0 +1,7 @@
+@mixin emptyheart {
+  position: absolute;
+
+  &:focus {
+    opacity: 0;
+  }
+}
