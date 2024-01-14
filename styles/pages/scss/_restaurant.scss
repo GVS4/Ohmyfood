@@ -2,9 +2,10 @@
 .main-pages {
   display: flex;
   flex-direction: column;
-  background: #f6f6f6;
+  background: white;
   &__img {
     height: 275px;
+    width: 100%;
     object-fit: cover;
     z-index: 0;
   }
@@ -17,15 +18,14 @@
   bottom: 35px;
   flex-direction: column;
   background: $bg-main;
-  border-radius: 25px 25px 0 0;
+  border-radius: 32px 32px 0 0;
   flex-shrink: 0;
   padding: 0 15px;
   gap: 45px;
   z-index: 1;
-
   // container-pages__name
   &__name {
-    margin-top: 25px;
+    margin-top: 32px;
     &--titre {
       display: flex;
       position: relative;
@@ -67,7 +67,7 @@
 
   //container-pages__btn
   &__btn {
-    width:186px;
+    width: 186px;
     margin: 0 auto;
   }
 }
@@ -85,6 +85,7 @@
   border-radius: 15px;
   box-shadow: 0px 4.011px 15.043px 0px rgba(0, 0, 0, 0.1);
   width: 100%;
+  max-width: 634px;
 
   &__text-content {
     display: flex;
@@ -135,5 +136,32 @@
       margin-bottom: 13px;
       margin-right: 10px;
     }
+  }
+}
+
+@media all and (min-width: 700px) {
+  .container-pages {
+    align-items: center;
+    &__name {
+      margin-top: 51px;
+    }
+  }
+
+  .card {
+    width: 634px;
+  }
+}
+
+@media all and (min-width: 1100px) {
+  .main-pages {
+    align-items: center;
+  }
+
+  .main-pages__img {
+    height: 400px;
+  }
+
+  .container-pages {
+    width: 1055px;
   }
 }

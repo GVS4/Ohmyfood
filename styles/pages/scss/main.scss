@@ -10,18 +10,18 @@
 @import "/styles/base/typography";
 
 /********** Components **********/
-@import "/styles/components/buttons"; 
+@import "/styles/components/buttons";
 @import "/styles/components/emptyheart";
 @import "/styles/components/fullheart";
 
 /********** layout **********/
 @import "/styles/layout/header";
 @import "/styles/layout/footer";
-
+@import "/styles/layout/animations";
 
 /********** pages **********/
 @import "./index";
-@import "./restaurant"; 
+@import "./restaurant";
 
 /********** Code **********/
 

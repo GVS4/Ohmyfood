@@ -1,0 +1,29 @@
+// Entrées
+.card-1 {
+  animation: pop ease-in-out 0.6s;
+  animation-fill-mode: none;
+}
+
+.card-2 {
+  animation: pop ease-in-out 0.8s;
+}
+
+.card-3 {
+  animation: pop ease-in-out 1s;
+}
+
+.card-4 {
+  animation: pop ease-in-out 1.2s;
+}
+
+// Animation
+@keyframes pop {
+  0% {
+    transform: translateY(50%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
