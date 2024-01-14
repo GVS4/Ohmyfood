@@ -1,7 +1,4 @@
 // HEADER
-.header__arrow {
-  display: none;
-}
 
 .location {
   display: flex;
@@ -55,10 +52,6 @@
     text-align: center;
     color: #353535;
   }
-
-  &__btn {
-    @include btn;
-  }
 }
 
 // FONCTIONEMENT
@@ -67,7 +60,7 @@
   display: flex;
   flex-direction: column;
   background: white;
-  height: 470px;
+  height: 460px;
   padding: 0 20px;
 
   &__title {
@@ -135,7 +128,7 @@
   flex-direction: column;
   background: $bg-main;
   height: 100%;
-  padding: 0 18px;
+  padding: 60px 18px;
   gap: 20px;
 
   &__title {
@@ -143,7 +136,6 @@
     font-style: normal;
     font-weight: 800;
     line-height: normal;
-    padding-top: 54px;
   }
 
   &__container {
@@ -229,10 +221,6 @@
     &__titre {
       font-size: 40px;
     }
-
-    &__btn {
-      margin-top: 0;
-    }
   }
 
   .functioning {
@@ -278,11 +266,6 @@
 
 ////////// 1415 //////////
 @media all and (min-width: 1415px) {
-  .introduction__btn:hover {
-    background-image: linear-gradient(193deg, #a681e3 -11.44%, #ff96e6 123.93%);
-    box-shadow: 0px 8px 15px 0px rgba(0, 0, 0, 0.3);
-  }
-
   .functioning {
     padding: 50px 180px;
     align-items: flex-start;

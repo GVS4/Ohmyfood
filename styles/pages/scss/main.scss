@@ -1,5 +1,5 @@
 /********** Mixin **********/
-
+@import "/styles/abstracts/mixins.scss";
 
 /********** Variables **********/
 @import "/styles/abstracts/variables";
@@ -10,20 +10,18 @@
 @import "/styles/base/typography";
 
 /********** Components **********/
-@import "/styles/components/buttons";
+@import "/styles/components/buttons"; 
+@import "/styles/components/emptyheart";
+@import "/styles/components/fullheart";
 
 /********** layout **********/
 @import "/styles/layout/header";
 @import "/styles/layout/footer";
-@import "/styles/layout/emptyheart";
-@import "/styles/layout/fullheart";
+
 
 /********** pages **********/
 @import "./index";
-@import "./a-la-francaise";
-@import "./la-note-enchantee";
-@import "./la-palette-du-gout";
-@import "./le-delice-des-sens";
+@import "./restaurant"; 
 
 /********** Code **********/
 

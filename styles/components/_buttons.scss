@@ -1,18 +1,35 @@
-@mixin btn {
+.btn {
   text-align: center;
+  line-height: 0;
   font-size: 16px;
   font-weight: 500;
   color: white;
   padding: 16px 20px;
   border: none;
+  height: 50px;
+  width: 218px;
   margin-top: 10px;
   margin-bottom: 48px;
   border-radius: 25px;
   box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25);
   background-image: linear-gradient(193deg, #9356dc -11.44%, #ff79da 123.93%);
+  transition: 0.5s;
 
   &:focus {
+    transform: scale(1.02);
     background-image: linear-gradient(193deg, #a681e3 -11.44%, #ff96e6 123.93%);
     box-shadow: 0px 8px 15px 0px rgba(0, 0, 0, 0.3);
+  }
+
+  &:hover {
+    transform: scale(1.02);
+    background-image: linear-gradient(193deg, #a681e3 -11.44%, #ff96e6 123.93%);
+    box-shadow: 0px 8px 15px 0px rgba(0, 0, 0, 0.3);
+  }
+}
+
+@media all and (min-width: 540px) {
+  .btn {
+    margin-top: 0;
   }
 }
