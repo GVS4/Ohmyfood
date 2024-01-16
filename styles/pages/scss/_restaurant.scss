@@ -3,7 +3,14 @@
   display: flex;
   flex-direction: column;
   background: white;
+  &__container-img {
+    position: relative;
+    height: 243px;
+    width: 100%;
+  }
+
   &__img {
+    position: absolute;
     height: 275px;
     width: 100%;
     object-fit: cover;
@@ -15,7 +22,6 @@
 .container-pages {
   display: flex;
   position: relative;
-  bottom: 35px;
   flex-direction: column;
   background: $bg-main;
   border-radius: 32px 32px 0 0;
@@ -56,6 +62,7 @@
     display: flex;
     flex-direction: column;
     gap: 12px;
+
     &--title {
       margin-bottom: 8px;
     }
@@ -63,12 +70,19 @@
       padding-bottom: 4px;
       border-bottom: solid 3px #99e2d0;
     }
+
+    &--cards {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
   }
 
   //container-pages__btn
   &__btn {
     width: 186px;
     margin: 0 auto;
+    margin-bottom: 45px;
   }
 }
 
@@ -86,6 +100,15 @@
   box-shadow: 0px 4.011px 15.043px 0px rgba(0, 0, 0, 0.1);
   width: 100%;
   max-width: 634px;
+
+  //animation
+  @for $i from 2 through 5 {
+    &:nth-child(#{$i}) {
+      animation: ease-in-out 0.6s cardAnimation;
+      animation-delay: $i * 0.1s;
+      animation-fill-mode: both;
+    }
+  }
 
   &__text-content {
     display: flex;
@@ -155,10 +178,13 @@
 @media all and (min-width: 1100px) {
   .main-pages {
     align-items: center;
-  }
+    &__container-img {
+      height: 368px;
+    }
 
-  .main-pages__img {
-    height: 400px;
+    &__img {
+      height: 400px;
+    }
   }
 
   .container-pages {
