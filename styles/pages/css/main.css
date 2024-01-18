@@ -418,6 +418,7 @@ table {
 }
 .restaurant__container--emptyheart {
   position: absolute;
+  cursor: pointer;
   left: 86%;
   top: 78%;
 }
@@ -426,6 +427,7 @@ table {
 }
 .restaurant__container--fullheart {
   position: absolute;
+  cursor: pointer;
   opacity: 0;
   transition-property: opacity;
   transition-duration: 0.5s;
@@ -593,6 +595,7 @@ table {
 }
 .container-pages__name--emptyheart {
   position: absolute;
+  cursor: pointer;
   right: 0;
 }
 .container-pages__name--emptyheart:focus {
@@ -600,6 +603,7 @@ table {
 }
 .container-pages__name--fullheart {
   position: absolute;
+  cursor: pointer;
   opacity: 0;
   transition-property: opacity;
   transition-duration: 0.5s;

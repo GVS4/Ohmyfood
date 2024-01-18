@@ -1,5 +1,6 @@
 @mixin emptyheart {
   position: absolute;
+  cursor: pointer;
 
   &:focus {
     opacity: 0;

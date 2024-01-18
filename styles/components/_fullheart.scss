@@ -1,12 +1,13 @@
 @mixin fullheart {
-    position: absolute;
+  position: absolute;
+  cursor: pointer;
 
-    opacity: 0;
-    transition-property: opacity;
-    transition-duration: 0.5s;
+  opacity: 0;
+  transition-property: opacity;
+  transition-duration: 0.5s;
 
-    &:focus {
-      opacity: 1;
-      outline: none;
-    }
+  &:focus {
+    opacity: 1;
+    outline: none;
   }
+}
