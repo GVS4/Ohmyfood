@@ -153,6 +153,7 @@ table {
   background-image: linear-gradient(193deg, #9356dc -11.44%, #ff79da 123.93%);
   transition: 0.5s;
   cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
 }
 .btn:focus {
   transform: scale(1.02);
@@ -176,6 +177,10 @@ table {
   height: 63px;
   align-items: center;
   justify-content: space-between;
+}
+.header__link {
+  -webkit-tap-highlight-color: transparent;
+  cursor: pointer;
 }
 .header__arrow {
   width: 20px;
@@ -218,6 +223,9 @@ table {
 .footer__container--small {
   display: flex;
   gap: 10px;
+}
+.footer__contact {
+  -webkit-tap-highlight-color: transparent;
 }
 
 @media all and (min-width: 900px) {
@@ -420,6 +428,7 @@ table {
 .restaurant__container--emptyheart {
   position: absolute;
   cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
   left: 86%;
   top: 78%;
 }
@@ -429,6 +438,7 @@ table {
 .restaurant__container--fullheart {
   position: absolute;
   cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
   opacity: 0;
   transition-property: opacity;
   transition-duration: 0.5s;
@@ -597,6 +607,7 @@ table {
 .container-pages__name--emptyheart {
   position: absolute;
   cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
   right: 0;
 }
 .container-pages__name--emptyheart:focus {
@@ -605,6 +616,7 @@ table {
 .container-pages__name--fullheart {
   position: absolute;
   cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
   opacity: 0;
   transition-property: opacity;
   transition-duration: 0.5s;
@@ -701,6 +713,7 @@ table {
   opacity: 0;
   z-index: 1;
   cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
 }
 .card__price {
   display: flex;

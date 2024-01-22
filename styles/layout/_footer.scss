@@ -21,6 +21,9 @@
       gap: 10px;
     }
   }
+  &__contact {
+    -webkit-tap-highlight-color: transparent;
+  }
 }
 
 @media all and (min-width: 900px) {

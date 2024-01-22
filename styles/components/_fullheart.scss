@@ -1,6 +1,7 @@
 @mixin fullheart {
   position: absolute;
   cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
 
   opacity: 0;
   transition-property: opacity;
