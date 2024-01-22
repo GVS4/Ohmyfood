@@ -172,6 +172,9 @@
     width: 100%;
     min-width: 260px;
     max-width: 500px;
+    cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
+    
 
     &--new {
       display: grid;

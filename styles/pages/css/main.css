@@ -464,6 +464,8 @@ table {
   width: 100%;
   min-width: 260px;
   max-width: 500px;
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
 }
 .restaurant__card--new {
   display: grid;
