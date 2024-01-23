@@ -1,22 +1,22 @@
 /********** Mixin **********/
-@import "/styles/abstracts/mixins.scss";
+@import "./abstracts/mixins";
 
 /********** Variables **********/
-@import "/styles/abstracts/variables";
+@import "./abstracts/variables";
 
 /********** base **********/
-@import "/styles/base/reset-css";
-@import "/styles/base/typography";
+@import "./styles/base/reset-css";
+@import "./styles/base/typography";
 
 /********** Components **********/
-@import "/styles/components/buttons";
-@import "/styles/components/emptyheart";
-@import "/styles/components/fullheart";
+@import "./styles/components/buttons";
+@import "./styles/components/emptyheart";
+@import "./styles/components/fullheart";
 
 /********** layout **********/
-@import "/styles/layout/header";
-@import "/styles/layout/footer";
-@import "/styles/layout/animations";
+@import "./styles/layout/header";
+@import "./styles/layout/footer";
+@import "./styles/layout/animations";
 
 /********** pages **********/
 @import "./styles/pages/scss/index";
