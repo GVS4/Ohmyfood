@@ -6,7 +6,6 @@
 
 /********** base **********/
 @import "/styles/base/reset-css";
-@include reset-css;
 @import "/styles/base/typography";
 
 /********** Components **********/
@@ -20,8 +19,8 @@
 @import "/styles/layout/animations";
 
 /********** pages **********/
-@import "./index";
-@import "./restaurant";
+@import "./styles/pages/scss/index";
+@import "./styles/pages/scss/restaurant";
 
 /********** Code **********/
 
