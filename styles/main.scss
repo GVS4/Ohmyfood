@@ -5,22 +5,22 @@
 @import "./abstracts/variables";
 
 /********** base **********/
-@import "./styles/base/reset-css";
-@import "./styles/base/typography";
+@import "./base/reset-css";
+@import "./base/typography";
 
 /********** Components **********/
-@import "./styles/components/buttons";
-@import "./styles/components/emptyheart";
-@import "./styles/components/fullheart";
+@import "./components/buttons";
+@import "./components/emptyheart";
+@import "./components/fullheart";
 
 /********** layout **********/
-@import "./styles/layout/header";
-@import "./styles/layout/footer";
-@import "./styles/layout/animations";
+@import "./layout/header";
+@import "./layout/footer";
+@import "./layout/animations";
 
 /********** pages **********/
-@import "./styles/pages/scss/index";
-@import "./styles/pages/scss/restaurant";
+@import "./pages/scss/index";
+@import "./pages/scss/restaurant";
 
 /********** Code **********/
 

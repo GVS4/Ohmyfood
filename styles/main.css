@@ -198,7 +198,7 @@ table {
   padding: 20px;
 }
 
-@media all and (min-width: 540px) {
+@media all and (min-width: 1100px) {
   .header {
     height: 100px;
   }
@@ -228,7 +228,7 @@ table {
   -webkit-tap-highlight-color: transparent;
 }
 
-@media all and (min-width: 900px) {
+@media all and (min-width: 1100px) {
   .footer {
     margin: 0;
     flex-direction: row-reverse;
@@ -504,12 +504,6 @@ table {
 }
 
 @media all and (min-width: 540px) {
-  .introduction {
-    gap: 35px;
-  }
-  .introduction__titre {
-    font-size: 40px;
-  }
   .functioning {
     margin: 0 auto;
     align-items: center;
@@ -541,26 +535,39 @@ table {
     left: 89%;
   }
 }
-@media all and (min-width: 1415px) {
+@media all and (min-width: 1100px) {
+  .introduction {
+    gap: 35px;
+  }
+  .introduction__titre {
+    font-size: 40px;
+  }
   .functioning {
-    padding: 50px 180px;
-    align-items: flex-start;
+    padding: 50px 0;
     height: auto;
+    justify-content: center;
+    align-items: center;
   }
   .functioning__title {
+    display: flex;
+    width: 1050px;
     padding-top: 0px;
-    padding-left: 10px;
+    align-items: normal;
   }
   .functioning__tuto {
     flex-direction: row;
+    justify-content: center;
   }
   .restaurant {
     align-items: flex-start;
     padding-bottom: 30px;
+    justify-content: center;
+    align-items: center;
+    padding-top: 0;
   }
   .restaurant__title {
-    padding-left: 171px;
     padding-top: 30px;
+    width: 1034px;
   }
 }
 .main-pages {
@@ -734,7 +741,7 @@ table {
   margin-right: 10px;
 }
 
-@media all and (min-width: 700px) {
+@media all and (min-width: 540px) {
   .container-pages {
     align-items: center;
   }
@@ -742,7 +749,7 @@ table {
     margin-top: 51px;
   }
   .card {
-    width: 634px;
+    width: 510px;
   }
 }
 @media all and (min-width: 1100px) {
@@ -757,6 +764,9 @@ table {
   }
   .container-pages {
     width: 1055px;
+  }
+  .card {
+    width: 634px;
   }
 }
 /********** Code **********/

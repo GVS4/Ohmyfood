@@ -165,7 +165,7 @@
   }
 }
 
-@media all and (min-width: 700px) {
+@media all and (min-width: 540px) {
   .container-pages {
     align-items: center;
     &__name {
@@ -174,7 +174,7 @@
   }
 
   .card {
-    width: 634px;
+    width: 510px;
   }
 }
 
@@ -192,5 +192,9 @@
 
   .container-pages {
     width: 1055px;
+  }
+
+  .card {
+    width: 634px;
   }
 }
